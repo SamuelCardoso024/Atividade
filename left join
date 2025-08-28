@@ -1,0 +1,3 @@
+SELECT c.nome_cliente, v.valor_total
+FROM Clientes c
+LEFT JOIN Vendas v ON c.id_cliente = v.id_cliente;
