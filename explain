@@ -1,0 +1,3 @@
+EXPLAIN SELECT * FROM Clientes WHERE nome_cliente LIKE '%Cliente A%';
+
+EXPLAIN SELECT * FROM Clientes WHERE nome_cliente LIKE '%Cliente A%';
